@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//Could Be Cool//Could Do//EN
+<% @events.each do |event| %>
+BEGIN:VEVENT
+DTSTAMP:<%= event["local_date"].gsub('-','') %>T<%= event["local_time"].gsub(':','') %>00
+SUMMARY:<%= event["name"] %>
+UID:<%= event["id"] %>
+STATUS:TENTATIVE
+DTSTART:<%= event["local_date"].gsub('-','') %>T<%= event["local_time"].gsub(':','') %>00
+DTEND:<%= event["local_date"].gsub('-','') %>T<%= event["local_time"].gsub(':','') %>00
+LAST-MODIFIED:<%= event["updated"] %>
+<% if event["venue"] %>
+LOCATION:<%= event["venue"]["name"] %>
+<% end %>
+URL:<%= event["link"] %>
+END:VEVENT
+<% end %>
+END:VCALENDAR

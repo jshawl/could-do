@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122954500-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-122954500-2');
+    </script>
+    <title>Could Do.</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav>
+      <div class='wrap'>
+        <div class='flex jcsb'>
+          <a href="/" class='logo'>
+            <div class='calendar'></div>
+          could do.</a>
+          <% if current_user %>
+            &nbsp;<%= link_to "Log Out", session_path, method: :delete, style:'padding:1em' %>
+          <% end %>
+        </div>
+      </div>
+    </nav>
+    
+    <%= yield %>
+    <footer>
+      <div class='wrap'>
+        <a href="https://couldbe.cool/">&copy; could be cool.</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+{
+  "country": "us",
+  "city": "Austin",
+  "topics": [
+    {
+      "urlkey": "philosophy",
+      "name": "Philosophy",
+      "id": 849
+    },
+    {
+      "urlkey": "opensource",
+      "name": "Open Source",
+      "id": 563
+    },
+    {
+      "urlkey": "ruby",
+      "name": "Ruby",
+      "id": 1040
+    },
+    {
+      "urlkey": "ruby-on-rails",
+      "name": "Ruby On Rails",
+      "id": 20837
+    },
+    {
+      "urlkey": "javascript",
+      "name": "JavaScript",
+      "id": 7029
+    },
+    {
+      "urlkey": "computer-programming",
+      "name": "Computer programming",
+      "id": 48471
+    },
+    {
+      "urlkey": "javascript-frameworks",
+      "name": "JavaScript Frameworks",
+      "id": 85951
+    },
+    {
+      "urlkey": "linux",
+      "name": "Linux",
+      "id": 188
+    },
+    {
+      "urlkey": "softwaredev",
+      "name": "Software Development",
+      "id": 3833
+    },
+    {
+      "urlkey": "jquery",
+      "name": "JQuery",
+      "id": 16137
+    },
+    {
+      "urlkey": "html5",
+      "name": "HTML5",
+      "id": 78565
+    },
+    {
+      "urlkey": "javascript-libraries",
+      "name": "JavaScript Libraries",
+      "id": 56555
+    },
+    {
+      "urlkey": "webdesign",
+      "name": "Web Design",
+      "id": 659
+    },
+    {
+      "urlkey": "sysadmin",
+      "name": "System Administration",
+      "id": 2109
+    },
+    {
+      "urlkey": "unix",
+      "name": "Unix",
+      "id": 405
+    },
+    {
+      "urlkey": "python",
+      "name": "Python",
+      "id": 1064
+    },
+    {
+      "urlkey": "webstandards",
+      "name": "Web Standards",
+      "id": 417
+    },
+    {
+      "urlkey": "javascript-applications",
+      "name": "JavaScript Applications",
+      "id": 964072
+    },
+    {
+      "urlkey": "gnu-linux",
+      "name": "GNU/linux",
+      "id": 106559
+    },
+    {
+      "urlkey": "entrepreneurship",
+      "name": "Entrepreneurship",
+      "id": 19882
+    },
+    {
+      "urlkey": "linux-server",
+      "name": "Linux Server",
+      "id": 133353
+    },
+    {
+      "urlkey": "infrastructure-as-code",
+      "name": "Infrastructure as Code",
+      "id": 126177
+    },
+    {
+      "urlkey": "data-center-and-operations-automation",
+      "name": "Data Center and Operations Automation",
+      "id": 46831
+    },
+    {
+      "urlkey": "web-development",
+      "name": "Web Development",
+      "id": 15582
+    },
+    {
+      "urlkey": "web",
+      "name": "Web Technology",
+      "id": 10209
+    }
+  ],
+  "joined": 1310961655000,
+  "link": "http://www.meetup.com/members/20385191",
+  "photo": {
+    "base_url": "https://secure.meetupstatic.com",
+    "photo_id": 104737492,
+    "type": "member",
+    "photo_link": "https://secure.meetupstatic.com/photos/member/9/2/7/4/member_104737492.jpeg",
+    "thumb_link": "https://secure.meetupstatic.com/photos/member/9/2/7/4/thumb_104737492.jpeg"
+  },
+  "lon": -97.75,
+  "other_services": {
+    "twitter": {
+      "identifier": "@jshawl"
+    }
+  },
+  "name": "Jesse Shawl",
+  "visited": 1533574942000,
+  "self": {
+    "common": {
+    }
+  },
+  "id": 20385191,
+  "state": "TX",
+  "lang": "en_US",
+  "lat": 30.219999313354492,
+  "status": "active"
+}

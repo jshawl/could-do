@@ -1,0 +1,24 @@
+<div class='wrap'>
+  <h2>Your Calendar Feed URL is:</h2>
+  <% url = URI.join(root_url,current_user.ics_path).to_s %>
+  <div class='callout'>
+    <%= link_to url, url %>
+  </div>
+</div>
+
+<section>
+  <div class='wrap'>
+    <h2>How do I Use this?</h2>
+    <p>Clicking on the above link will force-download the generated .ics file</p>
+    <h3>Subscribing in Google Calendar</h3>
+    <p>To subscribe to your feed in Google Calendar, click on the <code>+</code> by 
+    "Add a Friend's Calendar" and select "From URL"</p>
+    <p>Paste in the URL. Optionally, you can change the calendar name and color while in settings.</p>
+    <h3>Subscribing in iOS Calendar</h3>
+    <p>Clicking the above URL will prompt you to subscribe to the .ics feed. That's it!</p>
+
+    <h3>Subscribing in macOS Calendar</h3>
+    <p>Click <strong>File</strong> from the menu bar, and select "New Calendar Subscription..."</p>
+    <p>Paste in the URL and click "Subscribe."</p>
+  </div>
+</section>
